@@ -1,5 +1,5 @@
 cask "rusterm" do
-  version "0.5.9"
+  version "0.5.10"
   sha256 :no_check
 
   on_arm do
