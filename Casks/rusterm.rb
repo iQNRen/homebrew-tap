@@ -1,14 +1,9 @@
 cask "rusterm" do
-  version "0.5.16"
-  sha256 :no_check
+  version "v0.5.16"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
-  on_arm do
-    url "https://github.com/iQNRen/rusterm/releases/download/v#{version}/rusterm-v#{version}-macos-aarch64.zip"
-  end
-  on_intel do
-    url "https://github.com/iQNRen/rusterm/releases/download/v#{version}/rusterm-v#{version}-macos-x86_64.zip"
-  end
-
+  url "https://github.com/iQNRen/rusterm/releases/download/v#{version}/rusterm-v#{version}-macos-aarch64.zip",
+      verified: "github.com/iQNRen/rusterm/"
   name "Rusterm"
   desc "Lightweight Rust + Slint SSH/terminal client"
   homepage "https://github.com/iQNRen/rusterm"
