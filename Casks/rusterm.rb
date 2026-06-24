@@ -1,6 +1,6 @@
 cask "rusterm" do
   version "0.5.16"
-  sha256 :no_check
+  sha256 : "214e0114f4f65f743b9d4601c1fb1c8ead84da5389350cf57544ff06d4c23e93"
 
   on_arm do
     url "https://github.com/iQNRen/rusterm/releases/download/v#{version}/rusterm-v#{version}-macos-aarch64.zip"
