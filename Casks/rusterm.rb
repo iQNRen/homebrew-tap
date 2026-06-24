@@ -13,6 +13,8 @@ cask "rusterm" do
   desc "Lightweight Rust + Slint SSH/terminal client"
   homepage "https://github.com/iQNRen/rusterm"
 
+  depends_on macos: ">= 12"
+
   app "rusterm.app"
 
   zap trash: [
